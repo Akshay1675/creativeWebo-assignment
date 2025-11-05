@@ -73,7 +73,7 @@ export default function Hero() {
         {/* Main Large Card */}
         <div className="absolute top-[30] left-0 -translate-x-1/2 bg-white rounded-2xl p-4 w-[280px]">
           <Image
-            src="/images/balance.png"
+            src="/images/Balance.png"
             alt="Main card"
             width={280}
             height={200}
@@ -134,3 +134,4 @@ export default function Hero() {
     </section>
   );
 }
+
