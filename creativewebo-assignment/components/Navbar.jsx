@@ -23,11 +23,11 @@ const Navbar = () => {
       </div>
 
       {/* 🔹 Main Navigation Bar */}
-      <nav className="md:w-7xl md:border md:rounded-2xl mx-auto mt-2 md:border-gray-300 flex justify-between items-center px-10 py-4 bg-white">
+      <nav className="md:w-7xl w-full md:border md:rounded-2xl md:mx-auto mt-2 md:border-gray-300 flex justify-between items-center px-10 py-4 bg-white">
         {/* Logo */}
         <div className="flex justify-between items-center">
           <img src="/images/logo.png" alt="Omnis Pay" className="md:w-[140px] w-[156px]" />
-          <img src="/images/Button.png" alt="Omnis Pay" className="md:hidden" />
+          <img src="/images/Button.png" alt="Omnis Pay" className="md:hidden ml-40" />
 
         </div>
 
